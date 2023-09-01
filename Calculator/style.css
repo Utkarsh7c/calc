@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Kanit:wght@300;500&family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+body{
+    background-image: url('https://images.pexels.com/photos/6927334/pexels-photo-6927334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' )
+  
+    
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid navajowhite;
+    background-color: navajowhite;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 50%; */
+    padding-top: 4%;
+
+}
+.row{
+    margin: 8px 0px;
+}
+button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px ;
+    border: 2px solid black;
+    border-radius: 9px ;
+    cursor: pointer;
+}
+input{
+    background-color:  ghostwhite;
+    width: 290px;
+    margin: 0;
+    padding: 10px 38px ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+@keyframes  slideInLeft {
+    from{
+      transform: translate(-300px);
+    }
+    to{
+      transform: translate(0);
+    }
+  }
+  h1{
+    animation: slideInLeft  1s ease-in  0s  1  normal  both;
+ 
+  }
+  ::selection{
+     background-color:aquamarine;
+  }
+ 
